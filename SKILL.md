@@ -1,17 +1,17 @@
 ---
 name: ilustrador
-description: Gera desenhos e ilustrações analisando o contexto do projeto para escolher entre Gemini (padrão) e ChatGPT, usa o outro se o limite acabar, depois o Canva e por último SVG; o Canva também faz o acabamento (texto, logo, formatos). Use sempre que o David pedir um desenho, ilustração, imagem, arte, mascote, banner, capa, fundo ou ícone, ou pedir para "ilustrar" um site, landing page, apresentação, post ou projeto, mesmo que não cite Gemini nem ChatGPT. Use também quando, no meio de outra tarefa (criar um site, um deck), for preciso criar uma imagem nova. Não use para gráficos de dados, diagramas técnicos, nem para apenas editar ou redimensionar uma imagem que já existe.
+description: Gera desenhos e ilustrações analisando o contexto do projeto para escolher entre Gemini (padrão) e ChatGPT, usa o outro se o limite acabar, depois o Canva e por último SVG; o Canva também faz o acabamento (texto, logo, formatos). Use sempre que o usuário pedir um desenho, ilustração, imagem, arte, mascote, banner, capa, fundo ou ícone, ou pedir para "ilustrar" um site, landing page, apresentação, post ou projeto, mesmo que não cite Gemini nem ChatGPT. Use também quando, no meio de outra tarefa (criar um site, um deck), for preciso criar uma imagem nova. Não use para gráficos de dados, diagramas técnicos, nem para apenas editar ou redimensionar uma imagem que já existe.
 ---
 
 # Ilustrador
 
-O David quer que as imagens venham de uma IA geradora: Gemini ou ChatGPT, com o Canva de reserva. Desenhar por conta própria antes de tentar essas opções contraria o motivo desta skill.
+O usuário quer que as imagens venham de uma IA geradora: Gemini ou ChatGPT, com o Canva de reserva. Desenhar por conta própria antes de tentar essas opções contraria o motivo desta skill.
 
 Ordem: **IA mais indicada para o contexto → a outra → Canva → Claude (SVG)**. Na dúvida, a primeira é o Gemini. Cada pedido novo é analisado de novo, porque o contexto muda e os limites se renovam.
 
 ## 1. Entender o pedido
 
-Descubra pelo contexto: onde a imagem vai ser usada, proporção (ex.: 16:9 para topo de site, 1:1 ou 4:5 para post), estilo, cores e marca, e se há texto dentro da imagem. Pergunte só o que não der para deduzir e mudaria muito o resultado. Se o projeto já tiver identidade visual (cores, logo, imagens), siga-a. Para sites, vale a consulta de referências que o David já usa (SEESAW).
+Descubra pelo contexto: onde a imagem vai ser usada, proporção (ex.: 16:9 para topo de site, 1:1 ou 4:5 para post), estilo, cores e marca, e se há texto dentro da imagem. Pergunte só o que não der para deduzir e mudaria muito o resultado. Se o projeto já tiver identidade visual (cores, logo, imagens), siga-a. Para sites, vale a consulta de referências que o usuário já usa (SEESAW).
 
 ## 2. Analisar o contexto e escolher a IA
 
@@ -28,11 +28,11 @@ Ponto de partida para a escolha. São tendências, não fatos testados neste pro
 | Fundo transparente | ChatGPT |
 | Nada disso se destaca | Gemini |
 
-A experiência vale mais que a tabela: se o David pedir uma IA específica, use-a; se neste projeto uma delas já rendeu imagens aprovadas no mesmo estilo, continue com ela para manter a unidade visual.
+A experiência vale mais que a tabela: se o usuário pedir uma IA específica, use-a; se neste projeto uma delas já rendeu imagens aprovadas no mesmo estilo, continue com ela para manter a unidade visual.
 
 Antes de gerar, diga em uma linha qual escolheu e por quê, e siga sem esperar resposta. Exemplo: "Vou de ChatGPT, porque a capa tem título escrito. Se preferir o Gemini, é só falar."
 
-Enviar uma imagem de referência do projeto para a IA exige o OK do David antes.
+Enviar uma imagem de referência do projeto para a IA exige o OK do usuário antes.
 
 ## 3. Escrever o prompt
 
@@ -63,7 +63,7 @@ Endereços: Gemini em https://gemini.google.com/app e ChatGPT em https://chatgpt
 
 **O que não é limite:** página pedindo login, CAPTCHA, tela de termos, erro de carregamento, demora, ou recusa do conteúdo. Nesses casos não pule para a próxima IA em silêncio:
 
-- Erro ou demora: tente mais uma vez; se persistir, conte ao David e pergunte se passa para a próxima.
+- Erro ou demora: tente mais uma vez; se persistir, conte ao usuário e pergunte se passa para a próxima.
 - Login: siga a regra de login acima.
 - CAPTCHA, termos: peça para a pessoa resolver na aba. Não aceite termos por ela.
 - Recusa do conteúdo: mostre a mensagem e proponha um ajuste no prompt.
@@ -81,7 +81,7 @@ Ele tem dois papéis:
 
 **Confira o logo antes de mostrar.** O gerador de layout do Canva pode cortar ou alterar o logo enviado (já aconteceu de sobrar só o ícone, sem as letras). Olhe a miniatura e compare com o arquivo oficial: todas as partes presentes, mesmas cores, sem distorção. Se estiver errado, apague o elemento e insira o arquivo oficial inteiro, mantendo a proporção original, e confira de novo. Depois de exportar, abra o arquivo final e confira mais uma vez.
 
-Assim, escolher o ChatGPT por causa de texto (passo 2) só faz sentido quando o texto precisa fazer parte do próprio desenho. Uma ilustração simples não passa pelo Canva. Publicar ou compartilhar um design exige pedido do David.
+Assim, escolher o ChatGPT por causa de texto (passo 2) só faz sentido quando o texto precisa fazer parte do próprio desenho. Uma ilustração simples não passa pelo Canva. Publicar ou compartilhar um design exige pedido do usuário.
 
 ## 5. Mostrar e esperar o OK
 
